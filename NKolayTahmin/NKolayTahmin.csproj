@@ -7,8 +7,8 @@
     <ProjectGuid>{9BDAF0AF-ED43-4CE7-910D-C640673B1E90}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TahminEt</RootNamespace>
-    <AssemblyName>TahminEt</AssemblyName>
+    <RootNamespace>NKolayTahmin</RootNamespace>
+    <AssemblyName>NKolayTahmin</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -67,6 +67,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RestClient\Client.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,6 +99,20 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="assets\fonts\NUNITO-BLACK.TTF" />
+    <Resource Include="assets\fonts\NUNITO-BLACKITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-BOLD.TTF" />
+    <Resource Include="assets\fonts\NUNITO-BOLDITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-EXTRABOLD.TTF" />
+    <Resource Include="assets\fonts\NUNITO-EXTRABOLDITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-EXTRALIGHT.TTF" />
+    <Resource Include="assets\fonts\NUNITO-EXTRALIGHTITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-ITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-LIGHT.TTF" />
+    <Resource Include="assets\fonts\NUNITO-LIGHTITALIC.TTF" />
+    <Resource Include="assets\fonts\NUNITO-REGULAR.TTF" />
+    <Resource Include="assets\fonts\NUNITO-SEMIBOLD.TTF" />
+    <Resource Include="assets\fonts\NUNITO-SEMIBOLDITALIC.TTF" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -107,6 +122,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\images\fulllogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

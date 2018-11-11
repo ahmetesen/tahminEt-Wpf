@@ -1,10 +1,16 @@
-﻿<Application x:Class="TahminEt.App"
+﻿<Application x:Class="NKolayTahmin.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:TahminEt"
+             xmlns:local="clr-namespace:NKolayTahmin"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
+            <FontFamily x:Key="NunBlack">pack://application:,,,/assets/fonts/#Nunito Black</FontFamily>
+            <FontFamily x:Key="Nun">pack://application:,,,/assets/fonts/#Nunito</FontFamily>
+            <FontFamily x:Key="NunExtraBold">pack://application:,,,/assets/fonts/#Nunito ExtraBold</FontFamily>
+            <FontFamily x:Key="NunExtraLight">pack://application:,,,/Fonts/#Nunito ExtraLight</FontFamily>
+            <FontFamily x:Key="NunLight">pack://application:,,,/Fonts/#Nunito Light</FontFamily>
+            <FontFamily x:Key="NunSemiBold">pack://application:,,,/Fonts/#Nunito SemiBold</FontFamily>
             <ResourceDictionary.MergedDictionaries>
                 <!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />

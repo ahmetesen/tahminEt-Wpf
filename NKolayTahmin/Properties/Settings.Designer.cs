@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TahminEt.Properties
+namespace NKolayTahmin.Properties
 {
 
 
